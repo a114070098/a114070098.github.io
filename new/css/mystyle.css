@@ -68,7 +68,7 @@ section{
     font-size: 18px;
 }
 
-/* 箭頭 */
+
 .gogo{
     font-size: 50px;
     text-align: center;
@@ -83,14 +83,14 @@ section{
     color: #a855f7;
 }
 
-/* About背景 */
+
 #about{
     background-image:url("../pic/bb.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* CTA */
+
 #cta{
     background-color: #3b2060;
 }
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .work-card {
-    background: #3c235bd9;
+    background: #311B4CD9;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
@@ -264,3 +264,17 @@ a:hover {
     font-size: 13px;
     color: #aaa;
 }
+
+.work-card {
+    background: #311B4CD9;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.work-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
