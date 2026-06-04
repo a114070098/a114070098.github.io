@@ -44,6 +44,7 @@ section{
     text-align: center;
     color: #f5f3ff;
     border-radius: 20px;
+    font: "Noto Serif TC", serif;
 }
 
 /* 標題 */
@@ -227,3 +228,39 @@ a:hover {
     text-shadow: 0 0 10px rgba(28, 20, 131, 0.8);
 }
 
+.work-card {
+    background: #3c235bd9;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.company {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.position {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.time {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 13px;
+    color: #aaa;
+}
